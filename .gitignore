@@ -1,0 +1,34 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local tooling and environment files
+.env
+.env.*
+node_modules/
+dist/
+.cache/
+
+# Credentials and authorization material
+*client_secret*.json
+*credentials*.json
+*token*.json
+*.pem
+*.key
+
+# Databases, backups, and private application data
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.backup
+*.bak
+backups/
+data/
+logs/
